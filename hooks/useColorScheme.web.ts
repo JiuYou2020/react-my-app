@@ -1,8 +1,8 @@
-// NOTE: The default React Native styling doesn't support server rendering.
-// Server rendered styles should not change between the first render of the HTML
-// and the first render on the client. Typically, web developers will use CSS media queries
-// to render different styles on the client and server, these aren't directly supported in React Native
-// but can be achieved using a styling library like Nativewind.
+// 注意：默认的 React Native 样式不支持服务器渲染。
+// 服务器渲染的样式在 HTML 的第一次渲染之间不应更改
+// 以及客户端上的第一次渲染。通常，Web 开发人员会使用 CSS 媒体查询
+// 在客户端和服务器上呈现不同的样式，这些在 React Native 中不直接支持
+// 但可以使用像 Nativewind 这样的样式库来实现。
 export function useColorScheme() {
   return 'light';
 }

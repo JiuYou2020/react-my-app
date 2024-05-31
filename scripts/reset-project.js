@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * This script is used to reset the project to a blank state.
- * It moves the /app directory to /app-example and creates a new /app directory with an index.tsx and _layout.tsx file.
- * You can remove the `reset-project` script from package.json and safely delete this file after running it.
+ * 该脚本用于将项目重置为空白状态。
+ * 它将 /app 目录移动到 /app-example 并使用 index.tsx 和 _layout.tsx 文件创建一个新的 /app 目录。
+ * 您可以从 package.json 中删除 `reset-project` 脚本，并在运行后安全地删除该文件。
  */
 
 const fs = require('fs');

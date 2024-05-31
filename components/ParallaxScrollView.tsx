@@ -15,7 +15,13 @@ type Props = PropsWithChildren<{
   headerImage: ReactElement;
   headerBackgroundColor: { dark: string; light: string };
 }>;
-
+/**
+ * 该组件的作用是实现一个视差滚动视图。
+ * @param children
+ * @param headerImage
+ * @param headerBackgroundColor
+ * @constructor
+ */
 export default function ParallaxScrollView({
   children,
   headerImage,

@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "my-app", // 应用程序的名称
+    "slug": "my-app", // 应用程序的简短标识符
+    "version": "1.0.0", // 应用程序的版本号
+    "orientation": "portrait", // 应用程序的默认方向
+    "icon": "./assets/images/icon.png", // 应用程序的图标
+    "scheme": "myapp", // 应用程序的URL方案
+    "userInterfaceStyle": "automatic", // 用户界面样式，自动根据系统设置切换深色或浅色模式
+    "splash": { // 启动画面的配置
+      "image": "./assets/images/splash.png", // 启动画面的图片
+      "resizeMode": "contain", // 启动画面图片的调整模式
+      "backgroundColor": "#ffffff" // 启动画面的背景颜色
+    },
+    "ios": { // 针对iOS的配置
+      "supportsTablet": true // 是否支持平板设备
+    },
+    "android": { // 针对Android的配置
+      "adaptiveIcon": { // Android自适应图标的配置
+        "foregroundImage": "./assets/images/adaptive-icon.png", // 前景图片
+        "backgroundColor": "#ffffff" // 背景颜色
+      }
+    },
+    "web": { // 针对Web的配置
+      "bundler": "metro", // 打包工具
+      "output": "static", // 输出类型
+      "favicon": "./assets/images/favicon.png" // 网站图标
+    },
+    "plugins": [ // 使用的插件列表
+      "expo-router" // 使用expo-router插件
+    ],
+    "experiments": { // 实验性功能的配置
+      "typedRoutes": true // 启用类型路由
+    }
+  }
+}
